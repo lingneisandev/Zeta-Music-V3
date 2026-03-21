@@ -1,0 +1,21 @@
+server:
+  port: 2333
+  address: 0.0.0.0
+lavalink:
+  plugins:
+    - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:4.0.0"
+  server:
+    password: "youshallnotpass"
+    sources:
+      youtube: true
+      soundcloud: true
+      http: true
+    filters:
+      volume: true
+      equalizer: true
+      karaoke: true
+      timescale: true
+      tremolo: true
+      vibrato: true
+      rotation: true
+      lowPass: true

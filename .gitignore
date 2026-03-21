@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Build / Bundle
+dist/
+build/
+
+# IDE / System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+C:\Users\royal\.env
+
+# Database
+dump/
