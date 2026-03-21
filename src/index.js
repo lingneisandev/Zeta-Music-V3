@@ -35,11 +35,11 @@ const devLogger = require('./utils/devLogger');
 const printBanner = () => {
   printLine(E.line, 56, C.blue);
   console.log(`${C.blue}${E.line}${C.reset}                                                      ${C.blue}${E.line}${C.reset}`);
-  console.log(`${C.blue}${E.line}${C.reset}        ${C.cyan}${C.bold}C A S S E T T E   M U S I C${C.reset}                 ${C.blue}${E.line}${C.reset}`);
+  console.log(`${C.blue}${E.line}${C.reset}        ${C.cyan}${C.bold}MIZUKI MUSIC${C.reset}                 ${C.blue}${E.line}${C.reset}`);
   console.log(`${C.blue}${E.line}${C.reset}                                                      ${C.blue}${E.line}${C.reset}`);
   console.log(`${C.blue}${E.line}${C.reset}  ${E.arrow} ${C.cyan}Version${C.reset}   ${E.dot} ${C.white}2.2.0${C.reset}                            ${C.blue}${E.line}${C.reset}`);
   console.log(`${C.blue}${E.line}${C.reset}  ${E.arrow} ${C.cyan}Engine${C.reset}    ${E.dot} ${C.white}Discord.js v14 (Latest)${C.reset}           ${C.blue}${E.line}${C.reset}`);
-  console.log(`${C.blue}${E.line}${C.reset}  ${E.arrow} ${C.cyan}Developer${C.reset} ${E.dot} ${C.white}CassetteDev${C.reset}                      ${C.blue}${E.line}${C.reset}`);
+  console.log(`${C.blue}${E.line}${C.reset}  ${E.arrow} ${C.cyan}Developer${C.reset} ${E.dot} ${C.white}Titan X Dev${C.reset}                      ${C.blue}${E.line}${C.reset}`);
   console.log(`${C.blue}${E.line}${C.reset}                                                      ${C.blue}${E.line}${C.reset}`);
   printLine(E.line, 56, C.blue);
   console.log('');
