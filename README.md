@@ -1,8 +1,8 @@
-# 🌸 Mizuki Music
+# ⚡ Zeta Music Canary
 
 > **A Premium Music Experience for Discord**
 
-Mizuki is a high-performance, minimalist Discord music bot built with `discord.js v14` and `Shoukaku`. It focuses on a clean, professional aesthetic using the latest Discord V2 component system.
+Zeta Music Canary is a high-performance, minimalist Discord music bot built with `discord.js v14` and `Shoukaku`. It focuses on a clean, professional aesthetic using the latest Discord V2 component system.
 
 ---
 
@@ -28,8 +28,8 @@ Mizuki is a high-performance, minimalist Discord music bot built with `discord.j
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/titanxdevz/Mizuki-Music.git
-   cd Mizuki-Music
+   git clone https://github.com/lingneisandev/Zeta-Music-V3.git
+   cd Zeta-Music-V3
    ```
 
 2. **Install dependencies**
