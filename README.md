@@ -64,6 +64,7 @@ Mizuki is a high-performance, minimalist Discord music bot built with `discord.j
 ## 📜 Credits
 
 - **Developer**: TitanXDev
+- **Modifed Indonesian Support**:LingNeisanDev
 - **Library**: [discord.js](https://discord.js.org/)
 - **Wrapper**: [Shoukaku](https://github.com/Deivu/Shoukaku)
 
