@@ -26,10 +26,10 @@ const config = {
   spotifyClientSecret: process.env.SPOTIFY_CLIENT_SECRET || 'https://discord.gg/RPuK3n8YBT',
   supportServerUrl: process.env.SUPPORT_SERVER_URL || '',
   lavalink: {
-    host: process.env.LAVALINK_HOST || 'localhost',
-    port: parseInt(process.env.LAVALINK_PORT, 10) || 2333,
-    password: process.env.LAVALINK_PASSWORD || 'youshallnotpass',
-    secure: process.env.LAVALINK_SECURE === 'true'
+    host: process.env.LAVALINK_HOST || 'lavalinkv4.serenetia.com',
+    port: parseInt(process.env.LAVALINK_PORT, 10) || 80,
+    password: process.env.LAVALINK_PASSWORD || 'https://seretia.link/discord',
+    secure: process.env.LAVALINK_SECURE === 'false'
   },
   logs: {
     commands: process.env.LOG_COMMANDS_CHANNEL || '1484467879578570832',
