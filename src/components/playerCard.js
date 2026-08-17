@@ -46,8 +46,8 @@ const buildPlayerCard = async (track, player, requester) => {
     .setThumbnailAccessory(new ThumbnailBuilder().setURL('attachment://nowplaying.png'))
     .addTextDisplayComponents(
       new TextDisplayBuilder().setContent(
-        `### MIZUKI MUSIC\n` +
-        `┌─ **Track Info**\n` +
+        `### ZETA MUSIC CANARY\n` +
+        `┌─ **Track Information**\n` +
         `├─ Title: **${title}**\n` +
         `├─ Artist: **${author}**\n` +
         `└─ Duration: ${progressBar} ${timeInfo}\n\n` +
