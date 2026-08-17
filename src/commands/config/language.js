@@ -5,7 +5,7 @@ const { successContainer, errorContainer, v2 } = require('../../utils/embedBuild
 const Guild = require('../../models/Guild');
 const E = require('../../emoji');
 
-const SUPPORTED_LANGUAGES = ['en', 'hi', 'es', 'fr', 'de'];
+const SUPPORTED_LANGUAGES = ['en', 'hi', 'es', 'fr', 'de', 'id'];
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -18,7 +18,8 @@ module.exports = {
           { name: 'Hindi', value: 'hi' },
           { name: 'Spanish', value: 'es' },
           { name: 'French', value: 'fr' },
-          { name: 'German', value: 'de' }
+          { name: 'German', value: 'de' },
+          { name: 'Indonesian', value: 'Id' }
         ))),
   aliases: ['lang'],
   premiumOnly: false,
@@ -46,7 +47,7 @@ module.exports = {
       { upsert: true }
     );
 
-    const langNames = { en: 'English', hi: 'Hindi', es: 'Spanish', fr: 'French', de: 'German' };
+    const langNames = { en: 'English', hi: 'Hindi', es: 'Spanish', fr: 'French', de: 'German', id: 'indonesian' };
     await ctx.reply(v2(successContainer(`${E.check} Language set to **${langNames[lang]}** (\`${lang}\`)`)));
   }
 };
