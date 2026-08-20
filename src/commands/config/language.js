@@ -19,7 +19,7 @@ module.exports = {
           { name: 'Spanish', value: 'es' },
           { name: 'French', value: 'fr' },
           { name: 'German', value: 'de' },
-          { name: 'Indonesian', value: 'Id' }
+          { name: 'Indonesian', value: 'id' }
         ))),
   aliases: ['lang'],
   premiumOnly: false,
