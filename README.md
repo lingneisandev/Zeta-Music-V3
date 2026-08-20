@@ -1,8 +1,8 @@
-# ⚡ Zeta Music Canary
+# ⚡ Zeta Music V3
 
 > **A Premium Music Experience for Discord**
 
-Zeta Music Canary is a high-performance, minimalist Discord music bot built with `discord.js v14` and `Shoukaku`. It focuses on a clean, professional aesthetic using the latest Discord V2 component system.
+Zeta Music is a high-performance, minimalist Discord music bot built with `discord.js v14` and `Shoukaku`. It focuses on a clean, professional aesthetic using the latest Discord V2 component system.
 
 ---
 
@@ -76,4 +76,4 @@ This project is licensed under the MIT License. Feel free to use and modify it w
 
 ---
 
-[Join our Discord Server](https://discord.gg/aJHcQvrdxe) | [Support the Developer](https://youtube.com/@titanxdev)
+[Join our Discord Server](https://discord.gg/VMbqMG7nUq) | [Support the Developer](https://youtube.com/@LingNeisan)
