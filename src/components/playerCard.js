@@ -46,7 +46,7 @@ const buildPlayerCard = async (track, player, requester) => {
     .setThumbnailAccessory(new ThumbnailBuilder().setURL('attachment://nowplaying.png'))
     .addTextDisplayComponents(
       new TextDisplayBuilder().setContent(
-        `### ZETA MUSIC CANARY\n` +
+        `### ZETA MUSIC PLAYER\n` +
         `┌─ **Track Information**\n` +
         `├─ Title: **${title}**\n` +
         `├─ Artist: **${author}**\n` +
