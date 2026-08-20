@@ -34,7 +34,7 @@ module.exports = {
 
     const djRole = guildDoc.djRoleId ? `<@&${guildDoc.djRoleId}>` : 'None';
     const musicChannel = guildDoc.musicChannelId ? `<#${guildDoc.musicChannelId}>` : 'All channels';
-    const langNames = { en: 'English', hi: 'Hindi', es: 'Spanish', fr: 'French', de: 'German' };
+    const langNames = { en: 'English', hi: 'Hindi', es: 'Spanish', fr: 'French', de: 'German', id: 'Indonesian' };
 
     const container = new ContainerBuilder()
       .setAccentColor(COLORS.info);
