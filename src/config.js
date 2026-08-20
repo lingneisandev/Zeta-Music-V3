@@ -40,6 +40,14 @@ const config = {
     password: process.env.LAVALINK_PASSWORD_2 || 'https://discord.gg/mjS5J2K3ep',
     secure: process.env.LAVALINK_SECURE_2 === 'true'
   },
+  {
+    name: 'Node 3 (Millo 2)',
+    host: process.env.LAVALINK_HOST_3 || 'lava4.millohost.my.id',
+    port: parseInt(process.env.LAVALINK_PORT_3, 10) || 443,
+    password: process.env.LAVALINK_PASSWORD_3 || 'https://discord.gg/mjS5J2K3ep',
+    secure: process.env.LAVALINK_SECURE_3 === 'true'
+  }
+],
   logs: {
     commands: process.env.LOG_COMMANDS_CHANNEL || '1484467879578570832',
     errors: process.env.LOG_ERRORS_CHANNEL || '1484467879578570832',
