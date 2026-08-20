@@ -35,7 +35,7 @@ const devLogger = require('./utils/devLogger');
 const printBanner = () => {
   printLine(E.line, 56, C.blue);
   console.log(`${C.blue}${E.line}${C.reset}                                                      ${C.blue}${E.line}${C.reset}`);
-  console.log(`${C.blue}${E.line}${C.reset}        ${C.cyan}${C.bold}MIZUKI MUSIC${C.reset}                 ${C.blue}${E.line}${C.reset}`);
+  console.log(`${C.blue}${E.line}${C.reset}        ${C.cyan}${C.bold}ZETA PLAYER V3${C.reset}                 ${C.blue}${E.line}${C.reset}`);
   console.log(`${C.blue}${E.line}${C.reset}                                                      ${C.blue}${E.line}${C.reset}`);
   console.log(`${C.blue}${E.line}${C.reset}  ${E.arrow} ${C.cyan}Version${C.reset}   ${E.dot} ${C.white}2.2.0${C.reset}                            ${C.blue}${E.line}${C.reset}`);
   console.log(`${C.blue}${E.line}${C.reset}  ${E.arrow} ${C.cyan}Engine${C.reset}    ${E.dot} ${C.white}Discord.js v14 (Latest)${C.reset}           ${C.blue}${E.line}${C.reset}`);
