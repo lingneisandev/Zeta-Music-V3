@@ -50,7 +50,7 @@ module.exports = {
           const owner = await guild.fetchOwner();
           if (owner) {
             await owner.send({
-              content: `${E.broadcast} **Broadcast from Mizuki:**\n\n${safeMessage}`,
+              content: `${E.broadcast} **Broadcast from Zeta Music:**\n\n${safeMessage}`,
               allowedMentions: { parse: [], repliedUser: false }
             });
             success++;
@@ -61,7 +61,7 @@ module.exports = {
 
           if (channel) {
             await channel.send({
-              content: `${E.broadcast} **Broadcast from Mizuki:**\n\n${safeMessage}`,
+              content: `${E.broadcast} **Broadcast from Zeta Music:**\n\n${safeMessage}`,
               allowedMentions: { parse: [], repliedUser: false }
             });
             success++;
