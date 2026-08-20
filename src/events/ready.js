@@ -16,7 +16,7 @@ module.exports = {
         name: ` /play | z!play `,
         type: ActivityType.Listening
       }],
-      status: 'online'
+      status: 'idle'
     });
 
     log.ready(`${client.user.tag} is online`);
