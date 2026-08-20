@@ -19,7 +19,7 @@ module.exports = {
       status: 'idle'
     });
 
-    log.ready(`${client.user.tag} is online`);
+    log.ready(`${client.user.tag} is online and Runner`);
     await devLogger.sendReady(client);
 
     await purgeExpired(client);
