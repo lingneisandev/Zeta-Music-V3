@@ -27,27 +27,19 @@ const config = {
   supportServerUrl: process.env.SUPPORT_SERVER_URL || '',
   lavalink: [
   {
-    name: 'Node 1',
-    host: process.env.LAVALINK_HOST || 'node1.lavalink.com',
-    port: parseInt(process.env.LAVALINK_PORT, 10) || 2333,
-    password: process.env.LAVALINK_PASSWORD || 'pass1',
+    name: 'Node 1 (serentia/amane)',
+    host: process.env.LAVALINK_HOST || 'lavalinkv4.serenetia.com',
+    port: parseInt(process.env.LAVALINK_PORT, 10) || 443,
+    password: process.env.LAVALINK_PASSWORD || 'https://seretia.link/discord',
     secure: process.env.LAVALINK_SECURE === 'true'
   },
   {
-    name: 'Node 2',
-    host: process.env.LAVALINK_HOST_2 || 'node2.lavalink.com',
-    port: parseInt(process.env.LAVALINK_PORT_2, 10) || 2333,
-    password: process.env.LAVALINK_PASSWORD_2 || 'pass2',
+    name: 'Node 2 (millo 1)',
+    host: process.env.LAVALINK_HOST_2 || 'lava-v4.millohost.my.id',
+    port: parseInt(process.env.LAVALINK_PORT_2, 10) || 443,
+    password: process.env.LAVALINK_PASSWORD_2 || 'https://discord.gg/mjS5J2K3ep',
     secure: process.env.LAVALINK_SECURE_2 === 'true'
   },
-  {
-    name: 'Node 3',
-    host: process.env.LAVALINK_HOST_3 || 'node3.lavalink.com',
-    port: parseInt(process.env.LAVALINK_PORT_3, 10) || 2333,
-    password: process.env.LAVALINK_PASSWORD_3 || 'pass3',
-    secure: process.env.LAVALINK_SECURE_3 === 'true'
-  }
-],
   logs: {
     commands: process.env.LOG_COMMANDS_CHANNEL || '1484467879578570832',
     errors: process.env.LOG_ERRORS_CHANNEL || '1484467879578570832',
