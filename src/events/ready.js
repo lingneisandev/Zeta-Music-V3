@@ -13,7 +13,7 @@ module.exports = {
   execute: async (client) => {
     client.user.setPresence({
       activities: [{
-        name: ` /play | -play `,
+        name: ` /play | z!play `,
         type: ActivityType.Listening
       }],
       status: 'online'
