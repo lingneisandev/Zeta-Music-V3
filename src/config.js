@@ -17,7 +17,7 @@ const config = {
   clientId: process.env.CLIENT_ID,
   ownerIds: process.env.OWNER_IDS.split(',').map((id) => id.trim()),
   mongoUri: process.env.MONGO_URI,
-  defaultPrefix: process.env.DEFAULT_PREFIX || '!',
+  defaultPrefix: process.env.DEFAULT_PREFIX || 'z!',
   defaultVolume: parseInt(process.env.DEFAULT_VOLUME, 10) || 50,
   maxQueueSize: parseInt(process.env.MAX_QUEUE_SIZE, 10) || 1000,
   maintenanceMode: process.env.MAINTENANCE_MODE === 'true',
@@ -25,12 +25,29 @@ const config = {
   spotifyClientId: process.env.SPOTIFY_CLIENT_ID || '',
   spotifyClientSecret: process.env.SPOTIFY_CLIENT_SECRET || 'https://discord.gg/RPuK3n8YBT',
   supportServerUrl: process.env.SUPPORT_SERVER_URL || '',
-  lavalink: {
-    host: process.env.LAVALINK_HOST || 'lavalinkv4.serenetia.com',
-    port: parseInt(process.env.LAVALINK_PORT, 10) || 80,
-    password: process.env.LAVALINK_PASSWORD || 'https://seretia.link/discord',
-    secure: process.env.LAVALINK_SECURE === 'false'
+  lavalink: [
+  {
+    name: 'Node 1',
+    host: process.env.LAVALINK_HOST || 'node1.lavalink.com',
+    port: parseInt(process.env.LAVALINK_PORT, 10) || 2333,
+    password: process.env.LAVALINK_PASSWORD || 'pass1',
+    secure: process.env.LAVALINK_SECURE === 'true'
   },
+  {
+    name: 'Node 2',
+    host: process.env.LAVALINK_HOST_2 || 'node2.lavalink.com',
+    port: parseInt(process.env.LAVALINK_PORT_2, 10) || 2333,
+    password: process.env.LAVALINK_PASSWORD_2 || 'pass2',
+    secure: process.env.LAVALINK_SECURE_2 === 'true'
+  },
+  {
+    name: 'Node 3',
+    host: process.env.LAVALINK_HOST_3 || 'node3.lavalink.com',
+    port: parseInt(process.env.LAVALINK_PORT_3, 10) || 2333,
+    password: process.env.LAVALINK_PASSWORD_3 || 'pass3',
+    secure: process.env.LAVALINK_SECURE_3 === 'true'
+  }
+],
   logs: {
     commands: process.env.LOG_COMMANDS_CHANNEL || '1484467879578570832',
     errors: process.env.LOG_ERRORS_CHANNEL || '1484467879578570832',
