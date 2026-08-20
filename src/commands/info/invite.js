@@ -28,8 +28,8 @@ module.exports = {
     container.addTextDisplayComponents(
       new TextDisplayBuilder().setContent(
         `${E.arrow} **[Add to your server](${inviteUrl})**\n` +
-        `${E.arrow} **[Support Server](https://discord.gg/aJHcQvrdxe)**\n` +
-        `${E.arrow} **[YouTube](https://youtube.com/@titanxdev)**`
+        `${E.arrow} **[Support Server](https://discord.gg/VMbqMG7nUq)**\n` +
+        `${E.arrow} **[YouTube](https://youtube.com/@LingNeisan)**`
       )
     );
 
