@@ -14,7 +14,7 @@ module.exports = {
     .addIntegerOption((opt) => opt.setName('position').setDescription('Position of the track to remove').setRequired(true)),
   aliases: ['rm', 'del'],
   premiumOnly: false,
-  djOnly: true,
+  djOnly: false,
   cooldown: 2,
   execute: async (ctx) => {
     if (!checkVC(ctx.member)) {
