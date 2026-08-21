@@ -11,7 +11,7 @@ module.exports = {
     .setName('autoplay')
     .setDescription('Toggle autoplay - automatically play related tracks'),
   aliases: ['ap'],
-  premiumOnly: true,
+  premiumOnly: false,
   djOnly: false,
   cooldown: 3,
   execute: async (ctx) => {
