@@ -13,7 +13,7 @@ module.exports = {
     .setDescription('Toggle 24/7 mode (Bot stays in VC after music ends)'),
   aliases: ['24-7', 'stay'],
   premiumOnly: false,
-  djOnly: true,
+  djOnly: false,
   cooldown: 5,
   execute: async (ctx) => {
     const { guild, client } = ctx;
