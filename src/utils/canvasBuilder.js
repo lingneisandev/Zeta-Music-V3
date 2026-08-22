@@ -131,7 +131,7 @@ const buildHelpBanner = async () => {
   ctx.font = 'bold 52px sans-serif';
   ctx.textAlign = 'center';
   ctx.letterSpacing = '4px'; // If supported, otherwise I'll just draw it
-  ctx.fillText('MIZUKI MUSIC', BW / 2, 82);
+  ctx.fillText('Zeta MUSIC', BW / 2, 82);
 
   // Underline
   ctx.fillStyle = ACCENT;
