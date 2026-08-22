@@ -133,7 +133,7 @@ const createMainContainer = (client, prefix) => {
   const container = new ContainerBuilder();
 
   container.addTextDisplayComponents(
-    new TextDisplayBuilder().setContent(`### MIZUKI MUSIC`),
+    new TextDisplayBuilder().setContent(`### Zeta MUSIC`),
   );
 
   container.addSeparatorComponents(
