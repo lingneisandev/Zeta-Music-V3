@@ -46,7 +46,7 @@ const sendAsWebhook = async (channel, content, embeds, files, guildId) => {
 
         if (!existingWebhook) {
           existingWebhook = await channel.createWebhook({
-            name: 'Mizuki',
+            name: 'Zeta Music',
             avatar: profile.avatarUrl || undefined
           });
         }
@@ -68,7 +68,7 @@ const sendAsWebhook = async (channel, content, embeds, files, guildId) => {
     }
 
     const webhookOptions = {
-      username: 'Mizuki',
+      username: 'Zeta Music',
       avatarURL: profile.avatarUrl || undefined,
       allowedMentions: { parse: [], repliedUser: false }
     };
