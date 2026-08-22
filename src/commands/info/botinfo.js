@@ -155,7 +155,7 @@ const buildStatsCanvas = async (client, page, stats) => {
     const TX = AVX + AV + 18;
     ctx.font = 'bold 26px sans-serif';
     ctx.fillStyle = T_PRI;
-    ctx.fillText(client?.user?.username || 'Mizuki', TX, 58);
+    ctx.fillText(client?.user?.username || 'Zeta', TX, 58);
     ctx.font = '13px sans-serif';
     ctx.fillStyle = T_SEC;
     ctx.fillText(client?.user?.id || '', TX, 78);
