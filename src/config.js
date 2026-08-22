@@ -25,29 +25,12 @@ const config = {
   spotifyClientId: process.env.SPOTIFY_CLIENT_ID || '',
   spotifyClientSecret: process.env.SPOTIFY_CLIENT_SECRET || 'https://discord.gg/RPuK3n8YBT',
   supportServerUrl: process.env.SUPPORT_SERVER_URL || '',
-  lavalink: [
-  {
-    name: 'Node 1 (Millo 1)',
-    host: process.env.LAVALINK_HOST || 'lava-v4.millohost.my.id',
+  lavalink: {
+    host: process.env.LAVALINK_HOST || 'YOUR_LAVA_HOST',
     port: parseInt(process.env.LAVALINK_PORT, 10) || 443,
-    password: process.env.LAVALINK_PASSWORD || 'https://discord.gg/mjS5J2K3ep',
+    password: process.env.LAVALINK_PASSWORD || 'YOUR_PASS_LAVALINK',
     secure: process.env.LAVALINK_SECURE === 'true'
   },
-  {
-    name: 'Node 2 (Serentia/amane)',
-    host: process.env.LAVALINK_HOST_2 || 'lavalinkv4.serenetia.com',
-    port: parseInt(process.env.LAVALINK_PORT_2, 10) || 443,
-    password: process.env.LAVALINK_PASSWORD_2 || 'https://seretia.link/discord',
-    secure: process.env.LAVALINK_SECURE_2 === 'true'
-  },
-  {
-    name: 'Node 3 (Millo 2)',
-    host: process.env.LAVALINK_HOST_3 || 'lava4.millohost.my.id',
-    port: parseInt(process.env.LAVALINK_PORT_3, 10) || 443,
-    password: process.env.LAVALINK_PASSWORD_3 || 'https://discord.gg/mjS5J2K3ep',
-    secure: process.env.LAVALINK_SECURE_3 === 'true'
-  }
-],
   logs: {
     commands: process.env.LOG_COMMANDS_CHANNEL || '1484467879578570832',
     errors: process.env.LOG_ERRORS_CHANNEL || '1484467879578570832',
