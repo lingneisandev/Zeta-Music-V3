@@ -23,13 +23,13 @@ const config = {
   maintenanceMode: process.env.MAINTENANCE_MODE === 'true',
   devLogWebhook: process.env.DEV_LOG_WEBHOOK || '',
   spotifyClientId: process.env.SPOTIFY_CLIENT_ID || '',
-  spotifyClientSecret: process.env.SPOTIFY_CLIENT_SECRET || 'https://discord.gg/RPuK3n8YBT',
+  spotifyClientSecret: process.env.SPOTIFY_CLIENT_SECRET || '',
   supportServerUrl: process.env.SUPPORT_SERVER_URL || '',
   lavalink: {
-    host: process.env.LAVALINK_HOST || 'YOUR_LAVA_HOST,YOUR_LAVA_HOST_2',
-    port: parseInt(process.env.LAVALINK_PORT, 10) || 443,443,
-    password: process.env.LAVALINK_PASSWORD || 'YOUR_PASS_LAVALINK,YOUR_PASS_LAVALINK_2',
-    secure: process.env.LAVALINK_SECURE === 'true,true'
+    host: process.env.LAVALINK_HOST || 'YOUR_LAVA_HOST,YOUR_LAVA_HOST_2,YOUR_LAVA_HOST_3',
+    port: parseInt(process.env.LAVALINK_PORT, 10) || 443,443,443,
+    password: process.env.LAVALINK_PASSWORD || 'YOUR_PASS_LAVALINK,YOUR_PASS_LAVALINK_2,YOUR_PASS_LAVALINK_3',
+    secure: process.env.LAVALINK_SECURE === 'true,true,true'
   },
   logs: {
     commands: process.env.LOG_COMMANDS_CHANNEL || '1484467879578570832',
