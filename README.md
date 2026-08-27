@@ -63,7 +63,8 @@ Zeta Music is a high-performance, minimalist Discord music bot built with `disco
 
 ## 📜 Credits
 
-- **Developer**: TitanXDev
+- **Developer**: Ling Neisan
+- **Shample** : Titanxdevz 
 - **Modifed Indonesian Support**:LingNeisanDev
 - **Library**: [discord.js](https://discord.js.org/)
 - **Wrapper**: [Shoukaku](https://github.com/Deivu/Shoukaku)
