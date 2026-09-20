@@ -15,7 +15,7 @@ const guildSchema = new Schema({
   premiumExpiresAt: { type: Date, default: null },
   settings: {
     autoplay: { type: Boolean, default: false },
-    defaultVolume: { type: Number, default: 50 },
+    defaultVolume: { type: Number, default: 100 },
     defaultSource: { type: String, default: 'youtube' },
     announceNowPlaying: { type: Boolean, default: true },
     stayInVC: { type: Boolean, default: false }
