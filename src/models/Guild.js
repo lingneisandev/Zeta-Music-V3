@@ -4,7 +4,7 @@ const { Schema, model } = require('mongoose');
 
 const guildSchema = new Schema({
   guildId: { type: String, required: true, unique: true },
-  prefix: { type: String, default: '!' },
+  prefix: { type: String, default: 'z+' },
   djRoleId: { type: String, default: null },
   musicChannelId: { type: String, default: null },
   language: { type: String, default: 'en' },
